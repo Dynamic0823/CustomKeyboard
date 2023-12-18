@@ -1,0 +1,65 @@
+(footprint "USB4105-GF-A-GCT" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 6580540F)
+  (attr smd)
+  (fp_text reference "REF**" (at 4.6736 2.5908 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4c9fdea7-ba0c-45cc-8f66-240980c37d5c)
+  )
+  (fp_text value "USB4105-GF-A-GCT" (at 4.3688 5.9436 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c58960d9-4cac-4036-ad2e-1aef26946dae)
+  )
+  (fp_text user "${REFERENCE}" (at 4.6736 2.5908 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5b96c1ad-46ba-4366-8241-fbc1cd0e9bbd)
+  )
+  (pad "" np_thru_hole circle (at 1.524 0.5) (size 0.8 0.8) (drill 0.65) (layers F&B.Cu *.Mask) (tstamp dbe92a0d-89cb-4d3f-9497-c2c1d93a3018))
+  (pad "" np_thru_hole circle (at 7.304 0.5) (size 0.8 0.8) (drill 0.65) (layers F&B.Cu *.Mask) (tstamp fdc60c06-30fa-4dfb-96b4-809b755999e1))
+  (pad "A1/B12" smd rect (at 1.1176 -0.5588) (size 0.6 1.15) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8ade7975-64a0-440a-8545-11958836bf48))
+  (pad "A4/B9" smd rect (at 1.9296 -0.5588) (size 0.6 1.15) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp bc01f3e7-a131-4f66-8abc-cc13e855d5e5))
+  (pad "A5" smd rect (at 3.1336 -0.5588) (size 0.3 1.15) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a323243c-4cab-4689-aa04-1e663cf86177))
+  (pad "A6" smd rect (at 4.1336 -0.5588) (size 0.3 1.15) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fd4dd248-3e78-4985-a4fc-58bc05b74cbf))
+  (pad "A7" smd rect (at 4.6336 -0.5588) (size 0.3 1.15) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2d4d8c24-5b38-445b-8733-2a81ba21d33e))
+  (pad "A8" smd rect (at 5.6336 -0.5568) (size 0.3 1.15) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp db902262-2864-4997-aeff-8abaa132424a))
+  (pad "B1/A12" smd rect (at 7.5176 -0.5588) (size 0.6 1.15) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f7758f2a-e5c9-405c-960a-353b36eaf72d))
+  (pad "B4/A9" smd rect (at 6.7296 -0.5588) (size 0.6 1.15) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8efe6411-1919-4082-b5b8-393585e068c8))
+  (pad "B5" smd rect (at 6.1436 -0.5588) (size 0.3 1.15) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b21625e3-a75b-41d7-9f13-4c0e12ba16cb))
+  (pad "B6" smd rect (at 5.1336 -0.5588) (size 0.3 1.15) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a10b569c-d672-485d-9c05-2cb4795deeca))
+  (pad "B7" smd rect (at 3.6336 -0.5588) (size 0.3 1.15) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a647641f-bf16-4177-91ee-b01f347ff91c))
+  (pad "B8" smd rect (at 2.6336 -0.5588) (size 0.3 1.15) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1cbbfee4-06dd-44ee-af91-d336edf2459c))
+  (pad "GND" thru_hole roundrect (at 8.636 4.18) (size 1 1.8) (drill oval 0.6 1.4) (layers *.Cu *.Mask) (roundrect_rratio 0.5) (tstamp 2e90e294-82e1-45da-9bf1-b91dfe0dc8f6))
+  (pad "GND" thru_hole roundrect (at -0.004 0) (size 1 2.1) (drill oval 0.6 1.7) (layers *.Cu *.Mask) (roundrect_rratio 0.5) (tstamp 88cb65f4-7e9e-44eb-8692-3b6e2e788a94))
+  (pad "GND" thru_hole roundrect (at -0.004 4.18) (size 1 1.8) (drill oval 0.6 1.4) (layers *.Cu *.Mask) (roundrect_rratio 0.5) (tstamp 901440f4-e2a6-4447-83cc-f58a2b26f5c4))
+  (pad "GND" thru_hole roundrect (at 8.636 0) (size 1 2.1) (drill oval 0.6 1.7) (layers *.Cu *.Mask) (roundrect_rratio 0.5) (tstamp ae77c3c8-1144-468e-ad5b-a0b4090735bd))
+  (group "" (id 4ed19592-a5c4-4f6f-8e35-67fef4315ee4)
+    (members
+      dbe92a0d-89cb-4d3f-9497-c2c1d93a3018
+      fdc60c06-30fa-4dfb-96b4-809b755999e1
+    )
+  )
+  (group "" (id 60af2486-27b0-4394-8b74-bf0b63a58ade)
+    (members
+      1cbbfee4-06dd-44ee-af91-d336edf2459c
+      2d4d8c24-5b38-445b-8733-2a81ba21d33e
+      8ade7975-64a0-440a-8545-11958836bf48
+      8efe6411-1919-4082-b5b8-393585e068c8
+      a10b569c-d672-485d-9c05-2cb4795deeca
+      a323243c-4cab-4689-aa04-1e663cf86177
+      a647641f-bf16-4177-91ee-b01f347ff91c
+      b21625e3-a75b-41d7-9f13-4c0e12ba16cb
+      bc01f3e7-a131-4f66-8abc-cc13e855d5e5
+      db902262-2864-4997-aeff-8abaa132424a
+      f7758f2a-e5c9-405c-960a-353b36eaf72d
+      fd4dd248-3e78-4985-a4fc-58bc05b74cbf
+    )
+  )
+  (group "" (id ae9a2cfc-2e02-4731-9394-e388bba596f8)
+    (members
+      2e90e294-82e1-45da-9bf1-b91dfe0dc8f6
+      88cb65f4-7e9e-44eb-8692-3b6e2e788a94
+      901440f4-e2a6-4447-83cc-f58a2b26f5c4
+      ae77c3c8-1144-468e-ad5b-a0b4090735bd
+    )
+  )
+)
