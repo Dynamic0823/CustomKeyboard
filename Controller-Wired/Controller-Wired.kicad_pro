@@ -512,7 +512,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Controller-Wired.step",
       "svg": "",
       "vrml": ""
     },
