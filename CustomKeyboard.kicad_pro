@@ -99,8 +99,8 @@
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -468,7 +468,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "keyboard-fps"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -652,17 +654,26 @@
     "top_level_sheets": [
       {
         "filename": "CustomKeyboard.kicad_sch",
-        "name": "Root",
+        "name": "Keys",
         "uuid": "9b8a6bc3-989a-40fc-a966-9826505b0c40"
+      },
+      {
+        "filename": "connectors.kicad_sch",
+        "name": "Connectors",
+        "uuid": "d22e5dea-16c8-49c2-a662-c7f171900054"
       }
     ],
-    "used_designators": "D1-89,SW1-90",
+    "used_designators": "H1-4,#PWR5-20,R1-16,J1-2",
     "variants": []
   },
   "sheets": [
     [
       "9b8a6bc3-989a-40fc-a966-9826505b0c40",
-      "Root"
+      "Keys"
+    ],
+    [
+      "d22e5dea-16c8-49c2-a662-c7f171900054",
+      "Connectors"
     ]
   ],
   "text_variables": {},
